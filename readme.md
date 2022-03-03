@@ -1,4 +1,4 @@
-# Basic TS Example #
+# node + module + TS Example #
 In this repo we are using ES2020 (ES6) modules because execa is a pure ESM package [more info here](https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c).
 
 This repo has a run command that can be executed with:
