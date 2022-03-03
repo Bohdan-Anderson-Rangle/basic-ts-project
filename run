@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+":" //# comment; exec /usr/bin/env node --input-type=module - "$@" < "$0"
+
+import { hostname } from 'os';
+import index from "./index.js"
+
+index();
+
+// import cli from "index"
+// // const cli = require("./index");
+// const parser = cli();
+
+// eslint-disable-next-line no-unused-expressions
+parser.parse(process.argv.slice(2));
